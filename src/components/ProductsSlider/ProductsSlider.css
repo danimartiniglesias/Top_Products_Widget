@@ -1,0 +1,52 @@
+.productSlider {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    float: left;
+    width: 660px;
+    position: relative;
+}
+
+.productSlider--window {
+    width: 624px;
+    overflow: hidden;
+    margin-left:16px;
+}
+
+.productSlider--container {
+    height: 105px;
+    overflow: hidden;
+    width:2080px;
+    -webkit-transition: margin-left 0.5s;
+    -moz-transition: margin-left 0.5s;
+    -ms-transition: margin-left 0.5s;
+    -o-transition: margin-left 0.5s;
+    transition: margin-left 0.5s;
+}
+
+.sliderArrow {
+    background: url(/front/get/img/spr-prv.png) no-repeat 0 0;
+    display: block;
+    height: 16px;
+    margin: 0;
+    width: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 40px;
+}
+
+.sliderArrow--prev {
+    background-position: -80px -260px;
+    left: 0;
+}
+
+.sliderArrow--next {
+    background-position: -89px -260px;
+    right: 0;
+}
+
+.sliderArrow--disabled{
+    opacity:0.2;
+    pointer-events: none;
+}

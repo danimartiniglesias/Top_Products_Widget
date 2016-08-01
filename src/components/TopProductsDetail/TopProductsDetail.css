@@ -1,0 +1,77 @@
+.topProduct_detail {
+    background-color: #FFF;
+    border: 1px solid #000;
+    bottom: 125px;
+    box-shadow: 0 0 0;
+    padding: 15px;
+    position: absolute;
+    right: 19px;
+    width: 593px;
+    z-index: 49;
+}
+.topProduct_detail_header {}
+
+.topProduct_detail_nav{
+    color: #666;
+    font: 12px/14px Arial,"Times New Roman",serif;
+    padding: 5px 5px 5px 25px;
+    padding-bottom: 15px;
+}
+
+.topProduct_detail_nav--prev, .topProduct_detail_nav--next{
+    background: url('/front/get/img/spr-prv.png') no-repeat;
+    height: 13px;
+    position: absolute;
+    width: 7px;
+}
+.topProduct_detail_nav--prev{
+    background-position: -163px -280px;
+    left: 20px;
+    top: 21px;
+}
+.topProduct_detail_nav--next{
+    background-position: -171px -280px;
+    left: 93px;
+    top: 21px;
+}
+.topProduct_detail_nav--disabled {
+    opacity: 0.2;
+    pointer-events: none;
+}
+.topProduct_detail_close {
+    font-size: 40px !important;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.topProduct_detail_info {
+    float: left;
+    width: 52%;
+}
+
+.product_title--topProductsDetail{
+    border: 0;
+    color: #000;
+    font: normal 20px/26px Arial,sans-serif;
+    margin-bottom: 8px;
+}
+.product_title--topProductsDetail:hover{
+    text-decoration: none;
+}
+
+.topProduct_detail_description{
+    color: #333;
+    font: 12px/16px Arial,sans-serif;
+    height: 110px;
+    list-style: disc inside;
+    margin: 20px 0;
+    overflow-y: scroll;
+    overflowx: hidden;
+}
+
+.button--topProductsDetail{
+    display: block !important;
+    margin:10px auto 5px;
+    width: 180px;
+}

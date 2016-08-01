@@ -1,0 +1,11 @@
+.productSlider--productSlide {
+    float: left;
+    list-style: none;
+    border: 1px solid #fff;
+    height: 102px;
+    width: 102px;
+}
+
+.productSlider--productSlide.active {
+    border: 1px solid #000;
+}

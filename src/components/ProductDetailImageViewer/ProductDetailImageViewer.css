@@ -1,0 +1,10 @@
+.productDetailImageViewer {
+    float: left;
+    width: 42%;
+}
+
+.productDetailImageViewer--thumb{
+    height: 70px;
+    margin: 10px 10px 0 0;
+    width: 70px;
+}
