@@ -23,6 +23,8 @@ export default {
     },
     devtool: 'source-map'
 };
+
+añadimos una linea de prueba
 */
 
 var path = require('path');
